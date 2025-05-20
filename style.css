@@ -1,3 +1,17 @@
-body {
+h2 {
+  color: #8DA762;
+  text-decoration: overline underline 5px #17301C dotted;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  text-shadow: 10px;
+}
 
+body {
+  background-color: #ECE2D0;
+}
+
+img:hover {
+  width: 250px;
+  border: dotted purple 10px;
+  border-radius: 70%;
 }
