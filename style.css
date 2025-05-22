@@ -1,17 +1,52 @@
-h2 {
+ h2 {
   color: #8DA762;
-  text-decoration: overline underline 5px #17301C dotted;
+  text-decoration: underline 2px #648A56 wavy;
   letter-spacing: 2px;
   word-spacing: 10px;
   text-shadow: 10px;
 }
 
 body {
-  background-color: #ECE2D0;
+  background-color: #F6E8EA;
 }
 
 img:hover {
   width: 250px;
-  border: dotted purple 10px;
-  border-radius: 70%;
+  border: solid #C28CAE 7px;
+  border-radius: 75%;
+}
+
+h2:hover {
+  text-decoration: overline underline dotted #E8998D 12px;
+  font-size: 300%;
+}
+
+
+
+
+
+nav {
+  list-style-type: none;
+  background-color: #FDFDC3;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 15px 50px;
+  
+}
+
+li a:hover {
+  background-color: pink;
+  color: purple;
 }
