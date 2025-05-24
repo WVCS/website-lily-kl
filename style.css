@@ -48,6 +48,6 @@ li a {
 }
 
 li a:hover {
-  background-color: pink;
-  color: purple;
+  background-color: #F6CBD2;
+  color: #639027;
 }
