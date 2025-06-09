@@ -11,15 +11,17 @@ body {
 }
 
 img:hover {
-  width: 250px;
+  width: 280px;
   border: solid #C28CAE 7px;
   border-radius: 75%;
 }
 
 h2:hover {
-  text-decoration: overline underline dotted #E8998D 12px;
-  font-size: 300%;
+  text-decoration: overline underline dotted #E8998D 13px;
+  font-size: 260%;
 }
+
+
 
 
 
@@ -48,6 +50,6 @@ li a {
 }
 
 li a:hover {
-  background-color: #F9DCE1;
-  color: #639027;
+  background-color: pink;
+  color: purple;
 }
